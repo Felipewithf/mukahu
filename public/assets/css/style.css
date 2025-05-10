@@ -579,13 +579,13 @@ img {
 }
 
 .bg-overlay::after {
-  opacity: 0.95;
+  opacity: 0.9;
   z-index: -1;
 }
 
 .overlay-dark::after {
   background-color: rgb(29, 62, 20);
-  opacity: 0.95;
+  opacity: 0.85;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
   z-index: -1;
 }
@@ -721,7 +721,7 @@ img {
 
 /*BACKGROUND IMAGES*/
 .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg.jpg") no-repeat fixed
+  background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg.png") no-repeat fixed
     center center / cover;
 }
 
@@ -741,12 +741,12 @@ img {
 }
 
 .cta-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/cta_bg.jpg") no-repeat fixed
+  background: rgba(0, 0, 0, 0) url("../img/bg/inner_bg.png") no-repeat fixed
     center center / cover;
 }
 
 .breadcrumb-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/inner_bg.jpg") no-repeat fixed
+  background: rgba(0, 0, 0, 0) url("../img/bg/inner_bg.png") no-repeat fixed
     center center / cover;
 }
 
@@ -1313,19 +1313,19 @@ header {
 }
 
 .welcome-thumb-4 {
-  top: 94%;
+  top: 80%;
   right: 0;
   width: 150px;
 }
 
 .welcome-thumb-5 {
-  top: -18%;
-  left: 25%;
+  top: -14%;
+  right: 15%;
 }
 
 .welcome-thumb-6 {
-  top: -9%;
-  right: 15%;
+  top: 35%;
+  right: -6%;
 }
 
 .welcome-animation {
