@@ -721,8 +721,8 @@ img {
 
 /*BACKGROUND IMAGES*/
 .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/welcome_bg.png") no-repeat fixed
-    center center / cover;
+  background: rgba(0, 0, 0, 0) url("../assets/img/bg/welcome_bg.png") no-repeat
+    fixed center center / cover;
 }
 
 .homepage-2 .welcome-area {
@@ -741,13 +741,13 @@ img {
 }
 
 .cta-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/inner_bg.png") no-repeat fixed
-    center center / cover;
+  background: rgba(0, 0, 0, 0) url("../assets/img/bg/inner_bg.png") no-repeat
+    fixed center center / cover;
 }
 
 .breadcrumb-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/inner_bg.png") no-repeat fixed
-    center center / cover;
+  background: rgba(0, 0, 0, 0) url("../assets/img/bg/inner_bg.png") no-repeat
+    fixed center center / cover;
 }
 
 .blog .breadcrumb-area {
