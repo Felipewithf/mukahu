@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/socias", "destination": "/socias.html" },
+    { "source": "/socias.html", "destination": "/socias.html" }
+  ],
+  "trailingSlash": false
+}
