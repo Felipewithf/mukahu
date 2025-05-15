@@ -234,7 +234,7 @@ const Home = () => {
             <div className="col-12 col-md-6 col-lg-4">
               <div className="single-service p-4">
                 <span className="flaticon-web color-3 icon-bg-3"></span>
-                <h3 className="my-3">Apoyo technico</h3>
+                <h3 className="my-3">Apoyo tecnico</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
@@ -247,7 +247,7 @@ const Home = () => {
             <div className="col-12 col-md-6 col-lg-4">
               <div className="single-service p-4">
                 <span className="flaticon-smartphone color-4 icon-bg-4"></span>
-                <h3 className="my-3">Networking</h3>
+                <h3 className="my-3">Redes sociales</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
@@ -260,7 +260,7 @@ const Home = () => {
             <div className="col-12 col-md-6 col-lg-4">
               <div className="single-service p-4">
                 <span className="flaticon-email color-5 icon-bg-5"></span>
-                <h3 className="my-3">A Consejar</h3>
+                <h3 className="my-3">Asesoría</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
@@ -273,7 +273,7 @@ const Home = () => {
             <div className="col-12 col-md-6 col-lg-4">
               <div className="single-service p-4">
                 <span className="flaticon-affiliate color-6 icon-bg-6"></span>
-                <h3 className="my-3">Promover</h3>
+                <h3 className="my-3">Promocion</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
@@ -336,7 +336,7 @@ const Home = () => {
                 >
                   <span className="overlay-text text-center p-3">
                     <i className="fas fa-search-plus fa-2x text-white"></i>
-                    <h3 className="text-white mt-2 mb-3">caso o evento #3</h3>
+                    <h3 className="text-white mt-2 mb-3">caso de exito #3</h3>
                     <p className="text-white">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Soluta, eligendi pariatur corporis libero distinctio,
@@ -361,7 +361,7 @@ const Home = () => {
                 >
                   <span className="overlay-text text-center p-3">
                     <i className="fas fa-search-plus fa-2x text-white"></i>
-                    <h3 className="text-white mt-2 mb-3">caso o evento #2</h3>
+                    <h3 className="text-white mt-2 mb-3">caso de exito #2</h3>
                     <p className="text-white">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Soluta, eligendi pariatur corporis libero distinctio,
@@ -386,7 +386,7 @@ const Home = () => {
                 >
                   <span className="overlay-text text-center p-3">
                     <i className="fas fa-search-plus fa-2x text-white"></i>
-                    <h3 className="text-white mt-2 mb-3">caso o evento #1</h3>
+                    <h3 className="text-white mt-2 mb-3">caso de exito #1</h3>
                     <p className="text-white">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Soluta, eligendi pariatur corporis libero distinctio,
@@ -398,7 +398,11 @@ const Home = () => {
             </div>
           </div>
           <div className="row justify-content-center">
-            <Link to="/socias" className="btn btn-bordered mt-4">
+            <Link
+              to="/socias"
+              className="btn btn-bordered mt-4"
+              style={{ maxWidth: "380px" }}
+            >
               Lee las historias de nuestras socias
             </Link>
           </div>
@@ -484,9 +488,9 @@ const Home = () => {
                     </div>
                   </li>
                 </ul>
-                <Link to="#" className="btn btn-bordered mt-4">
+                {/* <Link to="#" className="btn btn-bordered mt-4">
                   Haz tu pedido directo con nosotras
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-12 col-lg-6">
