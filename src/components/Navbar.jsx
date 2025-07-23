@@ -20,7 +20,7 @@ const Navbar = () => {
           </Link>
           <div className="ml-auto"></div>
           <ul className="navbar-nav items">
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a className="nav-link" href="#">
                 Quienes Somos <i className="fas fa-angle-down ml-1"></i>
               </a>
@@ -41,17 +41,22 @@ const Navbar = () => {
                   </Link>
                 </li>
               </ul>
-            </li>
-            {/* <li className="nav-item">
-              <a href="about.html" className="nav-link">
-                Que Hacemos
-              </a>
             </li> */}
             <li className="nav-item">
+              <Link className="nav-link" to="/">
+                Vision
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/socias">
+                Socias
+              </Link>
+            </li>
+            {/* <li className="nav-item">
               <a href="services.html" className="nav-link">
                 Noticias
               </a>
-            </li>
+            </li> */}
           </ul>
           <ul className="navbar-nav icons">
             <li className="nav-item social">

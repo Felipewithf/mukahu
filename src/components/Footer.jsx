@@ -12,8 +12,10 @@ const Footer = () => {
                   &copy; Copyrights 2025 Mukahu. Todos los derechos reservados.
                 </div>
                 <div className="copyright-right">
-                  pagina creada con <i className="fas fa-heart"></i> por
-                  <a href="https://1920.digital"> 1920Digital</a>
+                  pagina creada con <i className="fas fa-heart"></i> por -
+                  <a href="https://1920.digital" target="_blank">
+                    1920Digital
+                  </a>
                 </div>
               </div>
             </div>

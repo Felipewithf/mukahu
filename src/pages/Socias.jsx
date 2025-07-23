@@ -25,21 +25,44 @@ const Socias = () => {
               <div className="single-team">
                 <div className="team-photo">
                   <Link to="#">
-                    <img src="/assets/img/team/mukahu_1.jpg" alt="" />
+                    <img src="/assets/img/team/r.trivino.jpg" alt="" />
                   </Link>
                 </div>
                 <div className="team-content p-3">
                   <Link to="#">
-                    <h3 className="mb-2">Nombre Y apellido</h3>
+                    <h3 className="mb-2">Rubiela Triviño Valencia</h3>
+                  </Link>
+                  <h5 className="text-uppercase">Finca Los Almendros</h5>
+                  <br />
+                  <p>Cacaocultora en Gigante Huila.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <div className="single-team">
+                <div className="team-photo">
+                  <Link to="#">
+                    <img src="/assets/img/team/e.ramirez.jpg" alt="" />
+                  </Link>
+                </div>
+                <div className="team-content p-3">
+                  <Link to="#">
+                    <h3 className="mb-2">Erika Alejandra Ramírez Gordillo</h3>
                   </Link>
                   <h5 className="text-uppercase">
-                    Cacaocultivadora/ technica/ etc.
+                    Finca Las Juntas - Lote El Cedro, vereda El Rodeo
                   </h5>
                   <br />
                   <p>
-                    Corta historia de la persona ... Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit. Laborum obcaecati dignissimos
-                    quae quo ad iste ipsum officiis deleniti asperiores sit.
+                    Desde mi vinculación a la sede campesina de la Asociación
+                    Coometas Campesinas y Saludarte (A.SALUDARTE) me motivé para
+                    unirme a MUKAHU e iniciamos con mi familia y mis colegas de
+                    A.SALUDARTE, el emprendimiento Cacao Minú, minuciosamente
+                    preparado por ti. Motivadas por promover la salud mental,
+                    hoy día mi familia cultiva el cacao en Gigante y lo
+                    transformamos artesanalmente en chocolate de mesa con clavos
+                    y canela, como parte de la rehabilitación psicosocial en
+                    situaciones de problemas y trastornos mentales.
                   </p>
                 </div>
               </div>
@@ -48,14 +71,25 @@ const Socias = () => {
               <div className="single-team">
                 <div className="team-photo">
                   <Link to="#">
-                    <img src="/assets/img/team/thumb_2.jpg" alt="" />
+                    <img src="/assets/img/team/a.mendez.jpg" alt="" />
                   </Link>
                 </div>
                 <div className="team-content p-3">
                   <Link to="#">
-                    <h3 className="mb-2">Yasmin Akter</h3>
+                    <h3 className="mb-2">Argenis Osso Mendez</h3>
                   </Link>
-                  <h5 className="text-uppercase">SEO Expert</h5>
+                  <h5 className="text-uppercase">Finca el Oasis</h5>
+                  <br />
+                  <p>
+                    Ubicada en el municipio de Gigante, Huila vereda la
+                    guandinosa, inicia su proceso como cacaocultora por fuerza
+                    mayor ya que al fallecer su esposo, esta hermosa actividad
+                    agricola le permite el sostenimiento economico para ella y
+                    sus tres hijos, aprende de cero esta actividad y hoy en dia
+                    tiene una hermosa finca certificada por el ICA y ya dos
+                    hijas profesionales gracias q esta hermosa labor como
+                    Cacaocultora.
+                  </p>
                 </div>
               </div>
             </div>
@@ -63,29 +97,26 @@ const Socias = () => {
               <div className="single-team">
                 <div className="team-photo">
                   <Link to="#">
-                    <img src="/assets/img/team/thumb_3.jpg" alt="" />
+                    <img src="/assets/img/team/a.cantor.jpg" alt="" />
                   </Link>
                 </div>
                 <div className="team-content p-3">
                   <Link to="#">
-                    <h3 className="mb-2">Md. Arham</h3>
+                    <h3 className="mb-2">Aura Nelly Cantor</h3>
                   </Link>
-                  <h5 className="text-uppercase">Media Controller</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
-              <div className="single-team">
-                <div className="team-photo">
-                  <Link to="#">
-                    <img src="/assets/img/team/thumb_4.jpg" alt="" />
-                  </Link>
-                </div>
-                <div className="team-content p-3">
-                  <Link to="#">
-                    <h3 className="mb-2">Jassica William</h3>
-                  </Link>
-                  <h5 className="text-uppercase">Data Analyst</h5>
+                  <h5 className="text-uppercase">
+                    El porvenir 1-vereda la guandinosa
+                  </h5>
+                  <br />
+                  <p>
+                    Con 5 ectareas, Tengo 500 palos de cacao ya produciendo y mi
+                    deseo es seguir cultivando cada vez mas. Todo el núcleo
+                    familiar esta ayudandome a que este sueño sea posible y más
+                    adelante con ayuda de Dios poder comprar otro lote para
+                    seguir cultivando más palos de cacao. Gracias a mi esposo
+                    que me está ayudando en este proceso que nos brinda una
+                    ayuda más en nuestra economía.
+                  </p>
                 </div>
               </div>
             </div>
@@ -98,24 +129,11 @@ const Socias = () => {
                 </div>
                 <div className="team-content p-3">
                   <Link to="#">
-                    <h3 className="mb-2">John Doe</h3>
+                    <h3 className="mb-2">Leidy Johanna Cañaveral</h3>
                   </Link>
-                  <h5 className="text-uppercase">Web Developer</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 col-lg-4">
-              <div className="single-team">
-                <div className="team-photo">
-                  <Link to="#">
-                    <img src="/assets/img/team/thumb_6.jpg" alt="" />
-                  </Link>
-                </div>
-                <div className="team-content p-3">
-                  <Link to="#">
-                    <h3 className="mb-2">Sara Scotch</h3>
-                  </Link>
-                  <h5 className="text-uppercase">Graphic Designer</h5>
+                  <h5 className="text-uppercase"></h5>
+                  <br />
+                  <p>Cacaocultora en Gigante Huila.</p>
                 </div>
               </div>
             </div>

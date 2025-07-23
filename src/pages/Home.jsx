@@ -2,6 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  const scrollToContact = (e) => {
+    e.preventDefault();
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <section
@@ -23,15 +31,19 @@ const Home = () => {
                   ancestral y de sueños compartidos.
                 </p>
                 <div className="button-group">
-                  <Link to="#" className="btn btn-bordered-white">
+                  <a
+                    href="#contact"
+                    onClick={scrollToContact}
+                    className="btn btn-bordered-white"
+                  >
                     Únete al cambio
-                  </Link>
-                  <Link
+                  </a>
+                  {/* <Link
                     to="#"
                     className="btn btn-bordered-white d-none d-sm-inline-block"
                   >
                     Compra cacao con propósito
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -213,9 +225,9 @@ const Home = () => {
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
                 </p>
-                <Link className="service-btn mt-3" to="#">
+                {/* <Link className="service-btn mt-3" to="#">
                   Learn More
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
@@ -226,9 +238,9 @@ const Home = () => {
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
                 </p>
-                <Link className="service-btn mt-3" to="#">
+                {/* <Link className="service-btn mt-3" to="#">
                   Learn More
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
@@ -239,9 +251,9 @@ const Home = () => {
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
                 </p>
-                <Link className="service-btn mt-3" to="#">
+                {/* <Link className="service-btn mt-3" to="#">
                   Learn More
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
@@ -252,9 +264,9 @@ const Home = () => {
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
                 </p>
-                <Link className="service-btn mt-3" to="#">
+                {/* <Link className="service-btn mt-3" to="#">
                   Learn More
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
@@ -265,9 +277,9 @@ const Home = () => {
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
                 </p>
-                <Link className="service-btn mt-3" to="#">
+                {/* <Link className="service-btn mt-3" to="#">
                   Learn More
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
@@ -278,9 +290,9 @@ const Home = () => {
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
                 </p>
-                <Link className="service-btn mt-3" to="#">
+                {/* <Link className="service-btn mt-3" to="#">
                   Learn More
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

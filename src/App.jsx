@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="homepage-6 rtl">
       <Preloader />
-      <div id="scrollUp" title="Scroll To Top">
+      {/* <div id="scrollUp" title="Scroll To Top">
         <i className="fas fa-arrow-up"></i>
-      </div>
+      </div> */}
       <div className="main overflow-hidden">
         <Navbar />
         <Outlet />
