@@ -147,7 +147,11 @@ const Home = () => {
                     <h3>Vision</h3>
                   </Link>
                   <p className="py-3">
-                    Lorem ipsum dolor sit amet, consectet ur adipisicing elit.
+                    Para el 2028, contar con nuestro propio centro de acopio,
+                    una mejor producción y sostenimiento de la unidad
+                    productiva, promoviendo la calidad de vida de nuestras
+                    mujeres campesinas y su núcleo familiar. preferida por
+                    nuestros clientes de consumo directo y comercio general.
                   </p>
                 </div>
               </div>
@@ -169,7 +173,9 @@ const Home = () => {
                     <h3>Mission</h3>
                   </Link>
                   <p className="py-3">
-                    Lorem ipsum dolor sit amet, consectet ur adipisicing elit.
+                    Somos mujeres productoras y comercializadoras de cacao del
+                    departamento del Huila garantizando producto de excelente
+                    calidad; a través de buenas prácticas y manejo agrícolas.
                   </p>
                 </div>
               </div>
@@ -221,10 +227,10 @@ const Home = () => {
               <div className="single-service p-4">
                 <span className="flaticon-rocket-launch color-1 icon-bg-1"></span>
                 <h3 className="my-3">Talleres</h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
-                </p>
+                </p> */}
                 {/* <Link className="service-btn mt-3" to="#">
                   Learn More
                 </Link> */}
@@ -234,10 +240,10 @@ const Home = () => {
               <div className="single-service p-4">
                 <span className="flaticon-monitoring color-2 icon-bg-2"></span>
                 <h3 className="my-3">Acreditaciones</h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
-                </p>
+                </p> */}
                 {/* <Link className="service-btn mt-3" to="#">
                   Learn More
                 </Link> */}
@@ -247,10 +253,10 @@ const Home = () => {
               <div className="single-service p-4">
                 <span className="flaticon-web color-3 icon-bg-3"></span>
                 <h3 className="my-3">Apoyo tecnico</h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
-                </p>
+                </p> */}
                 {/* <Link className="service-btn mt-3" to="#">
                   Learn More
                 </Link> */}
@@ -260,10 +266,10 @@ const Home = () => {
               <div className="single-service p-4">
                 <span className="flaticon-smartphone color-4 icon-bg-4"></span>
                 <h3 className="my-3">Redes sociales</h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
-                </p>
+                </p> */}
                 {/* <Link className="service-btn mt-3" to="#">
                   Learn More
                 </Link> */}
@@ -273,10 +279,10 @@ const Home = () => {
               <div className="single-service p-4">
                 <span className="flaticon-email color-5 icon-bg-5"></span>
                 <h3 className="my-3">Asesoría</h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
-                </p>
+                </p> */}
                 {/* <Link className="service-btn mt-3" to="#">
                   Learn More
                 </Link> */}
@@ -286,10 +292,10 @@ const Home = () => {
               <div className="single-service p-4">
                 <span className="flaticon-affiliate color-6 icon-bg-6"></span>
                 <h3 className="my-3">Promocion</h3>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed
                   do eiusmod tempor incididunt emit.
-                </p>
+                </p> */}
                 {/* <Link className="service-btn mt-3" to="#">
                   Learn More
                 </Link> */}
@@ -319,7 +325,7 @@ const Home = () => {
           <div className="row justify-content-center">
             <div className="col-12 col-md-10 col-lg-7">
               <div className="section-heading text-center">
-                <h2>casos de éxito</h2>
+                <h2>Razón de ser</h2>
                 <p className="d-none d-sm-block mt-4">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Laborum obcaecati dignissimos quae quo ad iste ipsum officiis
@@ -348,11 +354,11 @@ const Home = () => {
                 >
                   <span className="overlay-text text-center p-3">
                     <i className="fas fa-search-plus fa-2x text-white"></i>
-                    <h3 className="text-white mt-2 mb-3">caso de exito #3</h3>
+
+                    <h3 className="text-white mt-2 mb-3">Visibilidad</h3>
                     <p className="text-white">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Soluta, eligendi pariatur corporis libero distinctio,
-                      corrupti.
+                      Grupo de mujeres cacaocultoras que visibiliza el rol de la
+                      mujer Campesina en la cadena productiva de Cacao.
                     </p>
                   </span>
                 </Link>
@@ -373,11 +379,12 @@ const Home = () => {
                 >
                   <span className="overlay-text text-center p-3">
                     <i className="fas fa-search-plus fa-2x text-white"></i>
-                    <h3 className="text-white mt-2 mb-3">caso de exito #2</h3>
+                    <h3 className="text-white mt-2 mb-3">
+                      Agricultura Regenerativa
+                    </h3>
                     <p className="text-white">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Soluta, eligendi pariatur corporis libero distinctio,
-                      corrupti.
+                      Mujeres unidas en pro de la agricultura regenerativa en el
+                      proceso del sostenimiento de nuestros cultivos
                     </p>
                   </span>
                 </Link>
@@ -398,11 +405,11 @@ const Home = () => {
                 >
                   <span className="overlay-text text-center p-3">
                     <i className="fas fa-search-plus fa-2x text-white"></i>
-                    <h3 className="text-white mt-2 mb-3">caso de exito #1</h3>
+                    <h3 className="text-white mt-2 mb-3">Conectando</h3>
                     <p className="text-white">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Soluta, eligendi pariatur corporis libero distinctio,
-                      corrupti.
+                      Mujeres productoras y comercializadoras del cacao para el
+                      mejoramiento de nuestra calidad de vida y el de nuestra
+                      familia y generar empleo en nuestro territorio.
                     </p>
                   </span>
                 </Link>
@@ -444,13 +451,12 @@ const Home = () => {
                 <div className="section-heading text-center mb-3">
                   <h2>Apoya el Cacao con Propósito</h2>
                   <p className="d-none d-sm-block mt-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Laborum obcaecati dignissimos quae quo ad iste ipsum
-                    officiis deleniti asperiores sit.
+                    Una siembra de esperanza, dignidad y transformación liderada
+                    por mujeres en armonía con la Tierra.
                   </p>
                   <p className="d-block d-sm-none mt-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Laborum obcaecati.
+                    Una siembra de esperanza, dignidad y transformación liderada
+                    por mujeres en armonía con la Tierra.
                   </p>
                 </div>
                 <ul className="content-list text-left">
@@ -462,10 +468,11 @@ const Home = () => {
                     </div>
                     <div className="content-text media-body">
                       <span>
-                        <b>Differencia de nuestro cacao #1</b>
-                        <br />
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Veritatis, distinctio.
+                        <b>Producto con altos estándares de calidad</b>
+                        <br />A través de formación técnica continua y el
+                        compromiso con la mejora constante, nuestras productoras
+                        garantizan un cacao fino que respeta tanto el paladar
+                        como el origen.
                       </span>
                     </div>
                   </li>
@@ -477,10 +484,14 @@ const Home = () => {
                     </div>
                     <div className="content-text media-body">
                       <span>
-                        <b>Differencia de nuestro cacao #2</b>
+                        <b>
+                          Producto con buenas prácticas agrícolas regenerativas
+                        </b>
                         <br />
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Veritatis, distinctio.
+                        Implementamos prácticas regenerativas que cuidan el
+                        suelo, conservan la biodiversidad y fortalecen los
+                        ciclos naturales, honrando la sabiduría ancestral de las
+                        mujeres campesinas.
                       </span>
                     </div>
                   </li>
@@ -492,10 +503,12 @@ const Home = () => {
                     </div>
                     <div className="content-text media-body">
                       <span>
-                        <b>Differencia de nuestro cacao #3</b>
+                        <b>Producto con trazabilidad de cultivo a producción</b>
                         <br />
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Veritatis, distinctio.
+                        Esta trazabilidad no solo asegura la calidad del
+                        producto, sino también visibiliza el esfuerzo, la ética
+                        y el amor de las mujeres que cultivan con propósito y
+                        responsabilidad social.
                       </span>
                     </div>
                   </li>
@@ -540,13 +553,12 @@ const Home = () => {
               <div className="section-heading text-center mb-3">
                 <h2>Conoce a las manos detrás del cacao</h2>
                 <p className="d-none d-sm-block mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Laborum obcaecati dignissimos quae quo ad iste ipsum officiis
-                  deleniti asperiores sit.
+                  Cada grano de cacao representa el esmero de manos expertas que
+                  cultivan con conocimiento y dedicación
                 </p>
                 <p className="d-block d-sm-none mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Laborum obcaecati.
+                  Cada grano de cacao representa el esmero de manos expertas que
+                  cultivan con conocimiento y dedicación.
                 </p>
               </div>
             </div>
@@ -635,13 +647,12 @@ const Home = () => {
                   Conviértete en aliado de nuestro trabajo
                 </h2>
                 <p className="text-white d-none d-sm-block mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Laborum obcaecati dignissimos quae quo ad iste ipsum officiis
-                  deleniti asperiores sit.
+                  Desde la parcela familiar hasta el empaque final, cada etapa
+                  del proceso es registrada con transparencia
                 </p>
                 <p className="text-white d-block d-sm-none mt-4">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Laborum obcaecati.
+                  Desde la parcela familiar hasta el empaque final, cada etapa
+                  del proceso es registrada con transparencia
                 </p>
               </div>
             </div>
