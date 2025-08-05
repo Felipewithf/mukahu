@@ -137,6 +137,30 @@ const Socias = () => {
                 </div>
               </div>
             </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <div className="single-team">
+                <div className="team-photo">
+                  <Link to="#">
+                    <img src="/assets/img/team/a.cleves.jpg" alt="" />
+                  </Link>
+                </div>
+                <div className="team-content p-3">
+                  <Link to="#">
+                    <h3 className="mb-2">Arnovis Cleves Saldaña</h3>
+                  </Link>
+                  <h5 className="text-uppercase">
+                    Terra Bella, Vereda el piñal
+                  </h5>
+                  <br />
+                  <p>
+                    Hola, mi finca se llama terra bella es de 4 hectáreas, tengo
+                    5.000 palos de cacao ya en producción y mi deseo es segur
+                    sosteniendo mi cultivo junto a mi familia con la ayuda y
+                    bendiciones de dios.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
